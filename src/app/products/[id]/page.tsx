@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Star, ShoppingCart, MessageSquare } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import type { Metadata, ResolvingMetadata } from 'next';
 import Link from 'next/link';
 
