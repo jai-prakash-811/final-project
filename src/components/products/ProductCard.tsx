@@ -14,6 +14,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
     <Card className="flex flex-col h-full overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
       <CardHeader className="p-0">
         <Link href={`/products/${product.id}`} className="block aspect-[4/3] relative overflow-hidden">
+          <img src="/src/images/placeholder.png" alt="Product image" />
           <Image
             src={product.images[0]}
             alt={product.name}
